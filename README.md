@@ -13,5 +13,6 @@ data
 
 
 
-如果大家发现数据有问题， 请发送邮件至： aoingl#gmail.com
+如果大家发现数据有问题， 请提交问题到 https://github.com/gaol/data/issues
+
 
