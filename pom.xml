@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.github.gaol</groupId>
+    <artifactId>java-parent</artifactId>
+    <version>1.0.2</version>
+  </parent>
+
+  <groupId>io.github.gaol.data</groupId>
+  <artifactId>data</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Data Project</name>
+  <description>This contains common data</description>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git@github.com:gaol/data.git</connection>
+    <developerConnection>scm:git:git@github.com:gaol/data.git</developerConnection>
+    <url>https://github.com/gaol/data</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>author</id>
+      <name>Lin Gao</name>
+      <organization>OpenSource Developer</organization>
+      <organizationUrl>https://github.com/gaol/</organizationUrl>
+      <url>https://github.com/gaol/</url>
+    </developer>
+  </developers>
+
+  <build>
+    <resources>
+      <resource>
+        <directory>${basedir}</directory>
+        <includes>
+          <include>*.json</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
+
+</project>
